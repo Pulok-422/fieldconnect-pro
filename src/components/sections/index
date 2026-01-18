@@ -1,0 +1,30 @@
+// src/pages/Home.tsx
+import Hero from "@/components/sections/Hero";
+import TrustStrip from "@/components/sections/TrustStrip";
+import Metrics from "@/components/sections/Metrics";
+import FeatureCards from "@/components/sections/FeatureCards";
+import HowItWorks from "@/components/sections/HowItWorks";
+import UseCases from "@/components/sections/UseCases";
+import Testimonials from "@/components/sections/Testimonials";
+import PricingPreview from "@/components/sections/PricingPreview";
+import SecuritySection from "@/components/sections/SecuritySection";
+import FAQ from "@/components/sections/FAQ";
+import CTABanner from "@/components/sections/CTABanner";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <TrustStrip />
+      <Metrics />
+      <FeatureCards />
+      <HowItWorks />
+      <UseCases />
+      <Testimonials />
+      <PricingPreview />
+      <SecuritySection />
+      <FAQ />
+      <CTABanner />
+    </>
+  );
+}
