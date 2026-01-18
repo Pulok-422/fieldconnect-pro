@@ -113,9 +113,7 @@ export default function Footer() {
           <p className="text-sm text-primary-foreground/60">
             © {new Date().getFullYear()} ComMicPlan. All rights reserved.
           </p>
-          <p className="text-sm text-primary-foreground/60">
-            Designed for field teams worldwide
-          </p>
+
         </div>
       </div>
     </footer>
