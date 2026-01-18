@@ -37,7 +37,7 @@ export default function Footer() {
               <span className="text-xl font-bold">ComMicPlan</span>
             </Link>
             <p className="text-primary-foreground/70 text-sm mb-6 max-w-xs">
-              Offline-first mobile data collection, real-time monitoring, and GIS mapping for large-scale field programs.
+              A comprehensive platform for mobile data collection, real-time monitoring, and GIS-driven field program management.
             </p>
             <div className="space-y-3">
               <a
@@ -49,7 +49,7 @@ export default function Footer() {
               </a>
               <div className="flex items-center gap-2 text-sm text-primary-foreground/70">
                 <MapPin className="w-4 h-4" />
-                Global Operations
+                House : 6/20 (1st floor), Block- E, Lalmatia, Mohammadpur, Dhaka, Bangladesh.
               </div>
             </div>
             <div className="flex gap-4 mt-6">
