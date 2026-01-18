@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Phone, Linkedin, Twitter, Youtube } from "lucide-react";
+import { Mail, MapPin, Linkedin, Twitter, Youtube } from "lucide-react";
 
 const footerLinks = {
   product: [
@@ -19,12 +19,7 @@ const footerLinks = {
     { name: "Terms of Service", href: "/terms" },
     { name: "Data Security", href: "/security" },
   ],
-  useCases: [
-    { name: "Health Programs", href: "/solutions" },
-    { name: "Household Surveys", href: "/solutions" },
-    { name: "Agriculture", href: "/solutions" },
-    { name: "Disaster Response", href: "/solutions" },
-  ],
+  useCases: [], // removed Health Programs, Household Surveys, Agriculture, Disaster Response
 };
 
 export default function Footer() {
@@ -32,6 +27,7 @@ export default function Footer() {
     <footer className="bg-foreground text-primary-foreground">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12">
+          
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
@@ -44,7 +40,10 @@ export default function Footer() {
               Offline-first mobile data collection, real-time monitoring, and GIS mapping for large-scale field programs.
             </p>
             <div className="space-y-3">
-              <a href="mailto:info@commicplan.com" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+              <a
+                href="mailto:info@commicplan.com"
+                className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
                 <Mail className="w-4 h-4" />
                 info@commicplan.com
               </a>
@@ -71,20 +70,6 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-3">
               {footerLinks.product.map((link) => (
-                <li key={link.name}>
-                  <Link to={link.href} className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Use Cases */}
-          <div>
-            <h4 className="font-semibold mb-4">Use Cases</h4>
-            <ul className="space-y-3">
-              {footerLinks.useCases.map((link) => (
                 <li key={link.name}>
                   <Link to={link.href} className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                     {link.name}
