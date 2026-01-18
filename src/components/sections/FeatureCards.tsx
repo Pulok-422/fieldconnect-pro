@@ -14,42 +14,42 @@ const features = [
   {
     icon: FileEdit,
     title: "Form Builder & Questionnaire Design",
-    description: "Build questionnaires with intuitive tools, 25 question types, skip logic & validation, multilingual forms, and smart duplicate-case follow-up workflows.",
+    description: "Build questionnaires fast with intuitive tools, 25+ question types, skip logic & validation, multilingual forms, and smart duplicate-case handling with integrated follow-up.",
   },
   {
     icon: Wifi,
     title: "Offline & Online Data Collection",
-    description: "Collect data offline or online on any device—use the Android app or a web browser, with seamless syncing when connectivity returns.",
+    description: "Collect data anywhere, anytime—offline or online, on any device. Use the Android app or a web browser with seamless syncing when connectivity returns.",
   },
   {
     icon: BarChart3,
-    title: "Real-Time Monitoring & QC",
-    description: "Review and validate submissions in real time with supervisor oversight to maintain high data quality.",
+    title: "Real-Time Review & Validation",
+    description: "Review and validate submissions in real time to maintain high data quality across teams and locations.",
   },
   {
     icon: MapPin,
-    title: "GIS & Mapping",
-    description: "Visualize field data with custom maps and reports, and export geospatial files (KML supported; GeoJSON available for selected projects).",
+    title: "Maps & Reporting",
+    description: "Visualize data with custom maps and reports to track coverage, gaps, and progress across teams and locations.",
   },
   {
     icon: LayoutDashboard,
-    title: "Dashboards & Reporting",
-    description: "Custom reporting to track coverage and progress across projects, teams, and locations.",
+    title: "Project, Data & Team Management",
+    description: "Manage projects, teams, and data with fine-grained permissions, unlimited collectors/collaborators, and the ability to connect data across multiple projects.",
   },
   {
     icon: Scale,
     title: "Scalability",
-    description: "Scale from pilots to millions of respondents with multi-project, multi-team deployments and unlimited data collectors/collaborators.",
+    description: "Scale smoothly from small pilots to millions of respondents with unlimited projects and multi-team, multi-location deployments.",
   },
   {
     icon: Download,
-    title: "Data Management & Export",
-    description: "Download clean data in XLS, CSV, KML, and ZIP formats—and GeoJSON where enabled for downstream analysis.",
+    title: "Data Export & Interoperability",
+    description: "Download clean data in XLS, CSV, KML, or ZIP formats. GeoJSON export is planned and will be enabled as it rolls out.",
   },
   {
     icon: Shield,
-    title: "Security & Integrity",
-    description: "Fine-grained permissions, user-owned data control, and security-by-design, with options for DPAs and standalone deployments.",
+    title: "Security & Data Control",
+    description: "Secure, smart, and seamless by design—user-owned data with full access control, high security standards, and optional standalone deployments with custom support on demand.",
   },
 ];
 
@@ -68,7 +68,7 @@ export default function FeatureCards() {
             Everything You Need for Field Data Programs
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A complete platform to design questionnaires, collect data offline or online, review quality in real time, and generate maps and exports for reporting.
+            A complete platform to design questionnaires, collect data offline or online, review quality in real time, visualize with maps and reports, and manage projects securely at scale.
           </p>
         </motion.div>
 
